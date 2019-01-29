@@ -18,10 +18,10 @@ spring:
         driver-class-name: com.mysql.jdbc.Driver
         password: 
         platform: mysql
-        url: jdbc:mysql://localhost/bancoBD?
+        url: jdbc:mysql://localhost/bancoBD?useTimezone=true&serverTimezone=UTC
         username: root
     jpa:
-        database-platform: org.hibernate.dialect.MySQLDialect
+        database-platform: org.hibernate.dialect.MySQL55Dialect
         generate-ddl: false
         hibernate:
             ddl-auto: create
