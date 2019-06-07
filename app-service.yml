@@ -14,12 +14,6 @@ eureka:
     wait-time-in-ms-when-sync-empty: 3000
 
 spring:
-    datasource:
-        driver-class-name: com.mysql.jdbc.Driver
-        password: 
-        platform: mysql
-        url: jdbc:mysql://localhost/bancoBD?useTimezone=true&serverTimezone=UTC
-        username: root
     jpa:
         database-platform: org.hibernate.dialect.MySQL55Dialect
         generate-ddl: false
