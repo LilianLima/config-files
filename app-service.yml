@@ -24,7 +24,7 @@ spring:
         driver-class-name: com.mysql.jdbc.Driver
         password: 
         platform: mysql
-        url: jdbc:mysql://localhost:3306/bancobd?useTimezone=true&serverTimezone=UTC
+        url: jdbc:mysql://localhost:3306/bancobd
         username: root
     jpa:
         database-platform: org.hibernate.dialect.MySQLDialect
