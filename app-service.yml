@@ -22,10 +22,10 @@ spring:
  spring:
     datasource:
         driver-class-name: com.mysql.jdbc.Driver
-        password: admin
+        password: 
         platform: mysql
-        url: jdbc:mysql://localhost/bancoBD?useTimezone=true&serverTimezone=UTC
-        username: admin
+        url: jdbc:mysql://localhost/bancobd?useTimezone=true&serverTimezone=UTC
+        username: root
     jpa:
         database-platform: org.hibernate.dialect.MySQLDialect
         generate-ddl: false
