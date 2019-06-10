@@ -26,7 +26,7 @@ spring:
         password: 'admin'
         platform: mysql
         schema: classpath:/sql/schema.sql
-        url: jdbc:mysql://localhost/app-service?verifyServerCertificate=false&useSSL=false&requireSSL=false
+        url: jdbc:mysql://localhost/bancoBD?useTimezone=true&serverTimezone=UTC
         username: admin
     jpa:
         database-platform: org.hibernate.dialect.MySQLDialect
