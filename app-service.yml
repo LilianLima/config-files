@@ -21,11 +21,9 @@ spring:
          
  spring:
     datasource:
-        data: classpath:/sql/data.sql
         driver-class-name: com.mysql.jdbc.Driver
-        password: 'admin'
+        password: admin
         platform: mysql
-        schema: classpath:/sql/schema.sql
         url: jdbc:mysql://localhost/bancoBD?useTimezone=true&serverTimezone=UTC
         username: admin
     jpa:
